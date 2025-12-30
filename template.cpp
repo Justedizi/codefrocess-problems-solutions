@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct a {
-    int aa;
-
-};
+#define ll long long
+#define v vector
+#define m unordered_map
 
 int main(){
-    cout << 12;
-    a my = {2};
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     return 0;
 }
