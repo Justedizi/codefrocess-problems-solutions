@@ -1,7 +1,6 @@
-.*
 !*.cpp
 !*/
 !.gitingore
 !*.sh
-
+*
 
