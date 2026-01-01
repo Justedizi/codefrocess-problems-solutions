@@ -1,6 +1,6 @@
+//https://codeforces.com/problemset/problem/1020/B
 #include <bits/stdc++.h>
 using namespace std;
-
 vector<vector<int>> adj;
 vector<bool> visited;
 
