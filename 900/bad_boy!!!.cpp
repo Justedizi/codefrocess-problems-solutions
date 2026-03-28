@@ -10,8 +10,8 @@ int main() {
   cin >> t;
   while (t--) {
     int n, m, a, b;
-    cin >> n >> m >> a >> b;
     // placing points in opostie coreners ensures maximum distance
     cout << 1 << " " << 1 << " " << n << " " << m << '\n';
   }
+
 }
