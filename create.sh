@@ -1,5 +1,4 @@
 #!/bin/bash
 name=$1
-touch "$name.cpp" 
-cat template.cpp > $"$name.cpp"
-
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+cat "$SCRIPT_DIR/template.cpp" >$"$name.cpp"
