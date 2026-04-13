@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+float find_mean(int arr[],int n){
+  if(n > 1){
+    arr[n-2] +=arr[n-1];
+    n--;
+    return find_mean(arr,n);
+  }else{
+    return arr[0]/n;
+  }
+}
+
 int main() {
   int t;
   cin >> t;
