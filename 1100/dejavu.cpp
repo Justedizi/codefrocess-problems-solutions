@@ -29,4 +29,7 @@ int main() {
       cout << num << " ";
     cout << '\n';
   }
+  // important note if we take number n divisible by 2^x and add 2^(x-1) to it
+  // it is guarented that this nubmer wont be divisible by any x + 1, x + 2, ...
+  // thaus we dont need to modify it
 }
